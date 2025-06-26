@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Moving Services in Santa Clarita - Santa Clarita Moving Company</title>
+    <meta name="description" content="Santa Clarita Moving Company provides professional moving services for residential and commercial clients throughout the Santa Clarita Valley and beyond.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E40AF',
+                        secondary: '#F59E0B',
+                        dark: '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+            .transition-300 {
+                transition: all 300ms ease-in-out;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold text-primary">
+                    <i class="fas fa-truck mr-2"></i>Santa Clarita Moving
+                </a>
+                
+                <!-- Mobile menu button -->
+                <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                    <i class="fas fa-bars text-dark text-2xl"></i>
+                </button>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#home" class="text-dark hover:text-primary transition-300">Home</a>
+                    <a href="index.html#services" class="text-dark hover:text-primary transition-300">Services</a>
+                    <a href="index.html#testimonials" class="text-dark hover:text-primary transition-300">Testimonials</a>
+                    <a href="index.html#contact" class="text-dark hover:text-primary transition-300">Contact</a>
+                </div>
+                
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="hidden absolute top-16 left-0 right-0 bg-white shadow-md md:hidden">
+                    <div class="flex flex-col space-y-4 px-4 py-6">
+                        <a href="index.html#home" class="text-dark hover:text-primary transition-300">Home</a>
+                        <a href="index.html#services" class="text-dark hover:text-primary transition-300">Services</a>
+                        <a href="index.html#testimonials" class="text-dark hover:text-primary transition-300">Testimonials</a>
+                        <a href="index.html#contact" class="text-dark hover:text-primary transition-300">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<!-- Hero Section -->
+<section id="home" class="pt-24 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+    <div class="container mx-auto px-4 py-16 md:py-32">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-shadow">Santa Clarita's Premier Moving Service</h1>
+                <p class="text-xl mb-8">We make moving day stress-free with our experienced team and premium services throughout Santa Clarita Valley and beyond.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="index.html#services" class="bg-secondary hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition-300">
+                        Our Services
+                    </a>
+                    <a href="index.html#contact" class="bg-white hover:bg-gray-100 text-primary font-bold py-3 px-6 rounded-lg transition-300">
+                        Get a Quote
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="https://images.unsplash.com/photo-1600518464441-7a8745831eae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                     alt="Moving Service in Santa Clarita" class="rounded-lg shadow-xl">
+            </div>
+        </div>
+    </div>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+        <path fill="#F9FAFB" fill-opacity="1" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+    </svg>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Our Moving Services</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">We offer a comprehensive range of moving services tailored to meet your specific needs.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-home text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Residential Moving</h3>
+                    <p class="text-gray-600 mb-4">Our team ensures your household belongings are packed, transported, and unpacked with the utmost care and efficiency.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-building text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Commercial Moving</h3>
+                    <p class="text-gray-600 mb-4">Minimize downtime with our specialized commercial moving services, designed for businesses of all sizes.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-box text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Packing Services</h3>
+                    <p class="text-gray-600 mb-4">Let our experts handle the packing with high-quality materials to ensure your belongings arrive safely.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-warehouse text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Storage Solutions</h3>
+                    <p class="text-gray-600 mb-4">Secure, climate-controlled storage facilities for both short-term and long-term needs.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-globe-americas text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Long Distance Moving</h3>
+                    <p class="text-gray-600 mb-4">Relocating across the country? We provide reliable and efficient long-distance moving services.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-300">
+                <div class="bg-primary text-white p-4 text-center">
+                    <i class="fas fa-couch text-4xl"></i>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-dark">Furniture Assembly</h3>
+                    <p class="text-gray-600 mb-4">Our team can disassemble and reassemble your furniture to make your move even easier.</p>
+                    <a href="index.html#contact" class="text-primary hover:text-blue-700 font-semibold inline-flex items-center">
+                        Learn More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">What Our Clients Say</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Don't just take our word for it - hear from our satisfied customers.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6 italic">"Santa Clarita Moving Company made our move from Valencia to Saugus so much easier than we expected. The team was professional, efficient, and took great care with our belongings. Highly recommended!"</p>
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold text-dark">Sarah Johnson</h4>
+                        <p class="text-gray-500 text-sm">Residential Move in Valencia</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6 italic">"As a business owner in Canyon Country, minimizing downtime during our office relocation was crucial. The Santa Clarita Moving team worked after hours and over the weekend to ensure we were up and running by Monday. Exceptional service!"</p>
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold text-dark">Robert Chen</h4>
+                        <p class="text-gray-500 text-sm">Commercial Move in Canyon Country</p>
+                    </div>
+                </div>
+            </div>
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6 italic">"I was dreading the packing process for our move to Stevenson Ranch, but Santa Clarita Moving Company's packing service was a lifesaver. They were fast, organized, and nothing was damaged in the move. Worth every penny for the stress they saved me!"</p>
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client" class="w-12 h-12 rounded-full mr-4">
+                    <div>
+                        <h4 class="font-bold text-dark">Lisa Martinez</h4>
+                        <p class="text-gray-500 text-sm">Packing Services for Stevenson Ranch</p>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Get in Touch</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Ready to plan your move? Contact us for a free estimate.</p>
+        </div>
+        
+        <div class="flex flex-col md:flex-row gap-8">
+            <!-- Contact Form -->
+            <div class="md:w-2/3 bg-gray-50 p-8 rounded-lg shadow-lg">
+                <form id="contactForm" action="https://santaclaritamovingcompany.dev/process_form.php" method="post" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="phone" class="block text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary" required>
+                        </div>
+                        <div>
+                            <label for="moveDate" class="block text-gray-700 mb-2">Planned Move Date</label>
+                            <input type="date" id="moveDate" name="moveDate" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label for="moveType" class="block text-gray-700 mb-2">Type of Move</label>
+                        <select id="moveType" name="moveType" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            <option value="">Select Move Type</option>
+                            <option value="residential">Residential</option>
+                            <option value="commercial">Commercial</option>
+                            <option value="longDistance">Long Distance</option>
+                            <option value="international">International</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-gray-700 mb-2">Additional Details</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="bg-primary hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition-300">
+                            Get Free Estimate
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="md:w-1/3 bg-primary text-white p-8 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                
+                <div class="space-y-6">
+                    <div class="flex items-start">
+                        <i class="fas fa-map-marker-alt text-secondary mt-1 mr-4 text-xl"></i>
+                        <div>
+                            <h4 class="font-semibold mb-1">Address</h4>
+                            <p>123 Moving Avenue, Suite 101<br>Anytown, ST 12345</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <i class="fas fa-phone-alt text-secondary mt-1 mr-4 text-xl"></i>
+                        <div>
+                            <h4 class="font-semibold mb-1">Phone</h4>
+                            <p>(661) 306-4077</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <i class="fas fa-envelope text-secondary mt-1 mr-4 text-xl"></i>
+                        <div>
+                            <h4 class="font-semibold mb-1">Email</h4>
+                            <p>info@santaclaritamovingcompany.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <i class="fas fa-clock text-secondary mt-1 mr-4 text-xl"></i>
+                        <div>
+                            <h4 class="font-semibold mb-1">Business Hours</h4>
+                            <p>Monday - Friday: 8am - 6pm<br>Saturday: 9am - 3pm<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-8">
+                    <h4 class="font-semibold mb-3">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="index.html#" class="bg-white text-primary p-2 rounded-full hover:bg-secondary hover:text-white transition-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="index.html#" class="bg-white text-primary p-2 rounded-full hover:bg-secondary hover:text-white transition-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="index.html#" class="bg-white text-primary p-2 rounded-full hover:bg-secondary hover:text-white transition-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="index.html#" class="bg-white text-primary p-2 rounded-full hover:bg-secondary hover:text-white transition-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Santa Clarita Moving Company</h3>
+                    <p class="mb-4">Professional moving services for residential and commercial clients in Santa Clarita and beyond. We make your move stress-free.</p>
+                    <div class="flex space-x-4">
+                        <a href="index.html#" class="text-white hover:text-secondary transition-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="index.html#" class="text-white hover:text-secondary transition-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="index.html#" class="text-white hover:text-secondary transition-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="index.html#" class="text-white hover:text-secondary transition-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Residential Moving</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Commercial Moving</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Packing Services</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Storage Solutions</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Long Distance Moving</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#home" class="text-gray-300 hover:text-white transition-300">Home</a></li>
+                        <li><a href="index.html#services" class="text-gray-300 hover:text-white transition-300">Services</a></li>
+                        <li><a href="index.html#testimonials" class="text-gray-300 hover:text-white transition-300">Testimonials</a></li>
+                        <li><a href="index.html#contact" class="text-gray-300 hover:text-white transition-300">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
+                            <span>123 Valencia Blvd, Suite 101<br>Santa Clarita, CA 91355</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>(661) 306-4077</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>info@santaclaritamovingcompany.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-300">
+                <p>&copy; 2025 Santa Clarita Moving Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
